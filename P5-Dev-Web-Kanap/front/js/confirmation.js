@@ -8,5 +8,5 @@ const orderId = orderUrl.searchParams.get("id");
 //Récupération orderId dans l'url.
 
 document.querySelector("#orderId").innerHTML = orderId;
-console.log(orderId)
+console.log(orderId);
 localStorage.clear();
